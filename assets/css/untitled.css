@@ -1,0 +1,168 @@
+#upper-part {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 2em 2em;
+}
+
+@media (min-width: 768px) {
+  #upper-part {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 2em 4em;
+  }
+}
+
+#logo {
+  width: 100px;
+  align-items: center;
+  height: 2em;
+  align-items: center;
+  vertical-align: middle;
+}
+
+@media (min-width: 768px) {
+  #logo {
+    width: 200px;
+    align-items: center;
+    height: 2em;
+    align-items: center;
+    vertical-align: middle;
+  }
+}
+
+#upper-part ul {
+  list-style-type: none;
+  display: flex;
+  margin-top: 1em;
+  transform: translateY(-50%);
+}
+
+#upper-part a {
+  text-decoration: none;
+  display: block;
+  padding: 0 0.5em;
+  font-size: 15px;
+  color: #4f1b59;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+#join:hover {
+  background-color: #4F1B59;
+  color: white;
+  border-radius: 5px;
+}
+
+#join {
+  transition: 0.3s;
+}
+
+#navi a {
+  font-weight: 400;
+  color: rgb(255,255,255);
+  transition: 0.3s;
+}
+
+#navi a:hover {
+  font-weight: bold;
+  color: rgb(79,27,89);
+}
+
+#navi li {
+  transition: 0.3s;
+  margin-left: 2em;
+  margin-right: 2em;
+  font-size: 15px;
+}
+
+#navi li:hover {
+  background-color: rgb(206,70,232);
+  border-radius: 5px;
+}
+
+@media (min-width: 768px) {
+  #carousel-1 {
+    margin-left: 4em;
+    margin-right: 4em;
+    margin-top: 0.5em;
+  }
+}
+
+@media (min-width: 768px) {
+  #slides {
+    border-radius: 10px;
+  }
+}
+
+#events {
+  margin: 1em 0 1em 0;
+  text-align: center;
+  font-family: Poppins, sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  color: #4f1b59;
+}
+
+#event1-para {
+  width: auto;
+  height: 17em;
+  background-color: #661F21;
+  padding: 1em;
+  border-color: rgba(33,37,41,0);
+}
+
+#event1-img {
+  width: auto;
+  height: 17em;
+  background: url("../../assets/img/event1.jpeg") left / contain no-repeat, #661f21;
+  border-color: rgba(33,37,41,0);
+}
+
+#event2-pic {
+  width: auto;
+  height: 17em;
+  background: url("faisal-BI465ksrlWs-unsplash.jpg") center / cover;
+}
+
+#event2-para {
+  width: auto;
+  height: 17em;
+  background-color: #F1914D;
+  padding: 1em;
+}
+
+#event3-img {
+  width: auto;
+  height: 17em;
+  background: url("taras-shypka-5VM5SHrs_E8-unsplash.jpg") center / cover no-repeat;
+}
+
+#event3-para {
+  width: auto;
+  height: 17em;
+  background-color: #003a66;
+  padding: 1em;
+}
+
+.pics {
+  width: auto;
+  height: 10em;
+}
+
+.col-md-3 {
+  padding: 0;
+}
+
+#media {
+  margin: 1em 0 1em 0;
+  text-align: center;
+  font-family: Poppins, sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  color: #4f1b59;
+}
+

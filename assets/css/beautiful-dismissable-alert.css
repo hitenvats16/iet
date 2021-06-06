@@ -1,0 +1,90 @@
+#head-vp-p {
+  margin-top: 0.5em;
+}
+
+@media (min-width: 992px) {
+  .card {
+    width: auto;
+    height: 20em;
+    border-radius: 10px;
+    background: rgb(255,255,255);
+    box-shadow: 0px 0px 20px 1px rgba(79,27,89,0.28);
+    text-align: center;
+  }
+}
+
+.card {
+  width: auto;
+  height: 25em;
+  border-radius: 10px;
+  background: rgb(255,255,255);
+  box-shadow: 0px 0px 20px 1px rgba(79,27,89,0.28);
+  text-align: center;
+  padding: 0.5em;
+}
+
+#submit-btn {
+  background: rgba(182,36,50,0);
+  color: #4f1b59;
+}
+
+#home {
+  margin: 2em;
+  z-index: 52;
+}
+
+.card-col {
+  padding: 0.5em;
+}
+
+.member-thmbnail {
+  width: 15rem;
+  height: 15rem;
+  margin: 0 auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+}
+
+@media (min-width: 992px) {
+  .member-thmbnail {
+    width: 10rem;
+    height: 10rem;
+    margin: 0 auto;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+  }
+}
+
+.des {
+  text-decoration: none;
+  color: white;
+  transition: 0.3s;
+}
+
+.des:hover {
+  text-decoration: none;
+  color: rgb(191,191,191);
+  font-size: 20px;
+  font-family: 'Abril Fatface', serif;
+  transition: 0.3s;
+}
+
+@media (max-width: 1000px) {
+  .event-para {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 900px) {
+  .event-para {
+    font-size: 13px;
+  }
+}
+
+.event-head {
+  font-size: 30px;
+  font-weight: 600;
+}
+
