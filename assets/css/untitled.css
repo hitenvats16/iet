@@ -82,6 +82,7 @@
 #navi li:hover {
   background-color: rgb(206,70,232);
   border-radius: 5px;
+  box-shadow: 0px 0px 20px 0px #ce46e8;
 }
 
 @media (min-width: 768px) {
@@ -164,5 +165,25 @@
   font-size: 25px;
   font-weight: 600;
   color: #4f1b59;
+}
+
+.member-thmbnail {
+  width: 20rem;
+  height: 20rem;
+  margin: 0 auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+}
+
+@media (min-width: 992px) {
+  .member-thmbnail {
+    width: 20rem;
+    height: 20rem;
+    margin: 0 auto;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+  }
 }
 
