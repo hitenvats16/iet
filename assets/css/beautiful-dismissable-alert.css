@@ -65,8 +65,8 @@
 
 .des:hover {
   text-decoration: none;
-  color: rgb(191,191,191);
-  font-size: 20px;
+  color: #ce46e8;
+  font-size: 35px;
   font-family: 'Abril Fatface', serif;
   transition: 0.3s;
 }
