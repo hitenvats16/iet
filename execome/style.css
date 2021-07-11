@@ -1,0 +1,319 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    text-align: center;
+    margin: 0.3em;
+    color: purple;
+}
+
+header{
+    text-align: center;
+    margin: 0.3em;
+}
+
+header img{
+    width: 300px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: auto;
+}
+
+/* .img_card{
+    width: 20rem;
+    height: 20rem;
+    border-radius: 5px;
+    background-color: rgba(75,0,130,0.6);
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 2em;
+} */
+
+.footer{
+    width: 100%;
+    height: 10em;
+    background-color: purple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#mem1_img{
+    background-image: url('./pictures/members/Ansh\ Malik.jpg');
+    width: 20rem;
+    height: 20rem;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0.2em;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.6), 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+#mem1{
+    width: 20rem;
+    height: 20rem;
+    border-radius: 5px;
+    background-color: rgba(75,0,130,0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 2em;
+    backdrop-filter: blur(15px);
+    cursor: pointer;
+    opacity: 1;
+    transition: all 0.8s ease-in;
+}
+
+#mem2_img{
+    background-image: url('./pictures/members/Chandra\ Shekhar.jpg');
+    width: 20rem;
+    height: 20rem;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0.2em;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.6), 0 0 20px rgba(0, 0, 0, 0.1);   
+}
+
+#mem2{
+    width: 20rem;
+    height: 20rem;
+    border-radius: 5px;
+    background-color: rgba(75,0,130,0.6);
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 2em;
+    backdrop-filter: blur(15px);
+    cursor: pointer;
+    transition: all 0.8s ease-in;
+}
+
+#mem2 h3{
+    text-align: center;
+}
+
+#mem3_img{
+    background-image: url('./pictures/members/Harshit\ Yadav.jpg');
+    width: 20rem;
+    height: 20rem;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0.2em;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.6), 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+#mem3{
+    width: 20rem;
+    height: 20rem;
+    border-radius: 5px;
+    background-color: rgba(75,0,130,0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 2em;
+    backdrop-filter: blur(15px);
+    cursor: pointer;
+    transition: all 0.8s ease-in;
+
+}
+
+#mem4_img{
+    background-image: url('./pictures/members/Ketan\ Singh.jpg');
+    width: 20rem;
+    height: 20rem;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0.2em;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.6), 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+#mem4{
+    width: 20rem;
+    height: 20rem;
+    border-radius: 5px;
+    background-color: rgba(75,0,130,0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 2em;
+    backdrop-filter: blur(15px);
+    cursor: pointer;
+    transition: all 0.8s ease-in;
+
+}
+
+#mem5_img{
+    background-image: url('./pictures/members/Richa\ Tayal.jpg');
+    width: 20rem;
+    height: 20rem;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0.2em;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.6), 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+#mem5{
+    width: 20rem;
+    height: 20rem;
+    border-radius: 5px;
+    background-color: rgba(75,0,130,0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 2em;
+    backdrop-filter: blur(15px);
+    cursor: pointer;
+    transition: all 0.8s ease-in;
+
+}
+
+#mem6_img{
+    background-image: url('./pictures/members/Ritika\ Yadav.jpeg');
+    width: 20rem;
+    height: 20rem;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0.2em;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.6), 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+#mem6{
+    width: 20rem;
+    height: 20rem;
+    border-radius: 5px;
+    background-color: rgba(75,0,130,0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 2em;
+    backdrop-filter: blur(15px);
+    cursor: pointer;
+    transition: all 0.8s ease-in;
+
+}
+
+#mem7_img{
+    background-image: url('./pictures/members/Sanchit\ Kakar.jpg');
+    width: 20rem;
+    height: 20rem;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0.2em;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.6), 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+#mem7{
+    width: 20rem;
+    height: 20rem;
+    border-radius: 5px;
+    background-color: rgba(75,0,130,0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 2em;
+    backdrop-filter: blur(15px);
+    cursor: pointer;
+    transition: all 0.8s ease-in;
+
+}
+
+#mem8_img{
+    background-image: url('./pictures/members/Shrishti\ Shukla.jpeg');
+    width: 20rem;
+    height: 20rem;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0.2em;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.6), 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+#mem8{
+    width: 20rem;
+    height: 20rem;
+    border-radius: 5px;
+    background-color: rgba(75,0,130,0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 2em;
+    backdrop-filter: blur(15px);
+    cursor: pointer;
+    transition: all 0.8s ease-in;
+
+}
+
+#mem9_img{
+    background-image: url('./pictures/members/Ganesh.jpeg');
+    width: 20rem;
+    height: 20rem;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0.2em;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.6), 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+#mem9{
+    width: 20rem;
+    height: 20rem;
+    border-radius: 5px;
+    background-color: rgba(75,0,130,0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 2em;
+    backdrop-filter: blur(15px);
+    cursor: pointer;
+    opacity: 1;
+    transition: all 0.8s ease-in;
+
+}
+
+
+
+@media only screen and (min-width: 900px){
+    .container{
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        width: max-content;
+        margin: auto;
+    }
+}
